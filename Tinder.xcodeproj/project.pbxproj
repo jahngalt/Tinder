@@ -13,6 +13,10 @@
 		ED03DC9C256F9D8F001734B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED03DC9A256F9D8F001734B6 /* Main.storyboard */; };
 		ED03DC9E256F9D95001734B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED03DC9D256F9D95001734B6 /* Assets.xcassets */; };
 		ED03DCA1256F9D95001734B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED03DC9F256F9D95001734B6 /* LaunchScreen.storyboard */; };
+		ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */; };
+		ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */; };
+		ED9371912572E9A700077A08 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9371902572E9A700077A08 /* TopNavigationStackView.swift */; };
+		ED937194257390D400077A08 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED937193257390D400077A08 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ED03DC9D256F9D95001734B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED03DCA0256F9D95001734B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED03DCA2256F9D95001734B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllsStackView.swift; sourceTree = "<group>"; };
+		ED9371902572E9A700077A08 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		ED937193257390D400077A08 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		ED03DC93256F9D8F001734B6 /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				ED03DCAF25713CDF001734B6 /* Views */,
+				ED03DCAA2570DDB7001734B6 /* Extensions */,
 				ED03DC94256F9D8F001734B6 /* AppDelegate.swift */,
 				ED03DC96256F9D8F001734B6 /* SceneDelegate.swift */,
 				ED03DC98256F9D8F001734B6 /* ViewController.swift */,
@@ -65,6 +75,24 @@
 				ED03DCA2256F9D95001734B6 /* Info.plist */,
 			);
 			path = Tinder;
+			sourceTree = "<group>";
+		};
+		ED03DCAA2570DDB7001734B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED03DCAF25713CDF001734B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */,
+				ED9371902572E9A700077A08 /* TopNavigationStackView.swift */,
+				ED937193257390D400077A08 /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED937194257390D400077A08 /* CardView.swift in Sources */,
+				ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */,
 				ED03DC99256F9D8F001734B6 /* ViewController.swift in Sources */,
 				ED03DC95256F9D8F001734B6 /* AppDelegate.swift in Sources */,
+				ED9371912572E9A700077A08 /* TopNavigationStackView.swift in Sources */,
+				ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */,
 				ED03DC97256F9D8F001734B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sasgasg.Tinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sasgasg.Tinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
