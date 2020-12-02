@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED03DC95256F9D8F001734B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DC94256F9D8F001734B6 /* AppDelegate.swift */; };
 		ED03DC97256F9D8F001734B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DC96256F9D8F001734B6 /* SceneDelegate.swift */; };
-		ED03DC99256F9D8F001734B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DC98256F9D8F001734B6 /* ViewController.swift */; };
+		ED03DC99256F9D8F001734B6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DC98256F9D8F001734B6 /* HomeController.swift */; };
 		ED03DC9C256F9D8F001734B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED03DC9A256F9D8F001734B6 /* Main.storyboard */; };
 		ED03DC9E256F9D95001734B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED03DC9D256F9D95001734B6 /* Assets.xcassets */; };
 		ED03DCA1256F9D95001734B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED03DC9F256F9D95001734B6 /* LaunchScreen.storyboard */; };
@@ -23,7 +23,7 @@
 		ED03DC91256F9D8F001734B6 /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED03DC94256F9D8F001734B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED03DC96256F9D8F001734B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED03DC98256F9D8F001734B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED03DC98256F9D8F001734B6 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		ED03DC9B256F9D8F001734B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED03DC9D256F9D95001734B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED03DCA0256F9D95001734B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 				ED03DCAA2570DDB7001734B6 /* Extensions */,
 				ED03DC94256F9D8F001734B6 /* AppDelegate.swift */,
 				ED03DC96256F9D8F001734B6 /* SceneDelegate.swift */,
-				ED03DC98256F9D8F001734B6 /* ViewController.swift */,
+				ED03DC98256F9D8F001734B6 /* HomeController.swift */,
 				ED03DC9A256F9D8F001734B6 /* Main.storyboard */,
 				ED03DC9D256F9D95001734B6 /* Assets.xcassets */,
 				ED03DC9F256F9D95001734B6 /* LaunchScreen.storyboard */,
@@ -167,7 +167,7 @@
 			files = (
 				ED937194257390D400077A08 /* CardView.swift in Sources */,
 				ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */,
-				ED03DC99256F9D8F001734B6 /* ViewController.swift in Sources */,
+				ED03DC99256F9D8F001734B6 /* HomeController.swift in Sources */,
 				ED03DC95256F9D8F001734B6 /* AppDelegate.swift in Sources */,
 				ED9371912572E9A700077A08 /* TopNavigationStackView.swift in Sources */,
 				ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */,
