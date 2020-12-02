@@ -9,7 +9,12 @@ import UIKit
 
 class CardView: UIView {
     
+    
+    
     fileprivate let imageView = UIImageView(image: #imageLiteral(resourceName: "lady5c"))
+    
+    //configs
+    fileprivate let threshold: CGFloat = 80
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -35,8 +40,6 @@ class CardView: UIView {
         
         let rotationalTransformation = CGAffineTransform(rotationAngle: angle)
         self.transform = rotationalTransformation.translatedBy(x: translation.x, y: translation.y)
-//        let translation = gesture.translation(in: nil)
-//        self.transform = CGAffineTransform(translationX: translation.x, y: translation.y)
     }
     
     @objc fileprivate func handlePan(gesture: UIPanGestureRecognizer) {
@@ -46,7 +49,7 @@ class CardView: UIView {
             handleChanged(gesture)
             
         case .ended:
-            handleEnded()
+            handleEnded(gesture)
             
         default:
             ()
@@ -58,11 +61,30 @@ class CardView: UIView {
     }
     
     
-    fileprivate func handleEnded() {
+    fileprivate func handleEnded(_ gesture: UIPanGestureRecognizer) {
+        
+        
+        
+        
+        let shouldDismissCard =  gesture.translation(in: nil).x > self.threshold
+        let shouldChooseCard = gesture.translation(in: nil).x < -self.threshold
+        
         UIView.animate(withDuration: 0.75, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.1, options: .curveEaseOut) {
-            self.transform = .identity
-        } completion: { (_) in
             
+            if shouldDismissCard {
+//                let offScreenTransfom = self.transform.translatedBy(x: 1000, y: 0)
+//                self.transform = offScreenTransfom
+                self.frame = CGRect(x: 1000, y: 0, width: self.frame.width, height: self.frame.height)
+                
+            } else if  shouldChooseCard {
+                self.frame = CGRect(x: -1000, y: 0, width: self.frame.width, height: self.frame.height)
+                
+            } else {
+                self.transform = .identity
+            }
+        } completion: { (_) in
+            self.transform = .identity
+            self.frame = CGRect(x: 0, y: 0, width: self.superview!.frame.width, height: self.superview!.frame.height)
         }
     }
 }
