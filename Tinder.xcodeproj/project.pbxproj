@@ -16,7 +16,9 @@
 		ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */; };
 		ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */; };
 		ED9371912572E9A700077A08 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9371902572E9A700077A08 /* TopNavigationStackView.swift */; };
-		ED937194257390D400077A08 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED937193257390D400077A08 /* CardView.swift */; };
+		EDB16E87257D76FF00AD54EA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB16E86257D76FF00AD54EA /* CardView.swift */; };
+		EDB16E8B257D799C00AD54EA /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB16E8A257D799C00AD54EA /* CardViewModel.swift */; };
+		EDB9EB5A2577956300CF8C33 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB9EB592577956300CF8C33 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +33,9 @@
 		ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllsStackView.swift; sourceTree = "<group>"; };
 		ED9371902572E9A700077A08 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
-		ED937193257390D400077A08 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EDB16E86257D76FF00AD54EA /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EDB16E8A257D799C00AD54EA /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		EDB9EB592577956300CF8C33 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +68,13 @@
 		ED03DC93256F9D8F001734B6 /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				EDB16E89257D797B00AD54EA /* ViewModels */,
+				EDB9EB582577954D00CF8C33 /* Model */,
 				ED03DCAF25713CDF001734B6 /* Views */,
+				EDB16E84257D758D00AD54EA /* Controllers */,
 				ED03DCAA2570DDB7001734B6 /* Extensions */,
 				ED03DC94256F9D8F001734B6 /* AppDelegate.swift */,
 				ED03DC96256F9D8F001734B6 /* SceneDelegate.swift */,
-				ED03DC98256F9D8F001734B6 /* HomeController.swift */,
 				ED03DC9A256F9D8F001734B6 /* Main.storyboard */,
 				ED03DC9D256F9D95001734B6 /* Assets.xcassets */,
 				ED03DC9F256F9D95001734B6 /* LaunchScreen.storyboard */,
@@ -90,9 +96,33 @@
 			children = (
 				ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */,
 				ED9371902572E9A700077A08 /* TopNavigationStackView.swift */,
-				ED937193257390D400077A08 /* CardView.swift */,
+				EDB16E86257D76FF00AD54EA /* CardView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EDB16E84257D758D00AD54EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED03DC98256F9D8F001734B6 /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EDB16E89257D797B00AD54EA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EDB16E8A257D799C00AD54EA /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EDB9EB582577954D00CF8C33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDB9EB592577956300CF8C33 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,13 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED937194257390D400077A08 /* CardView.swift in Sources */,
 				ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */,
 				ED03DC99256F9D8F001734B6 /* HomeController.swift in Sources */,
 				ED03DC95256F9D8F001734B6 /* AppDelegate.swift in Sources */,
+				EDB9EB5A2577956300CF8C33 /* User.swift in Sources */,
 				ED9371912572E9A700077A08 /* TopNavigationStackView.swift in Sources */,
 				ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */,
+				EDB16E87257D76FF00AD54EA /* CardView.swift in Sources */,
 				ED03DC97256F9D8F001734B6 /* SceneDelegate.swift in Sources */,
+				EDB16E8B257D799C00AD54EA /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
