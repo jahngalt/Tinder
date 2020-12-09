@@ -18,6 +18,7 @@
 		ED9371912572E9A700077A08 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9371902572E9A700077A08 /* TopNavigationStackView.swift */; };
 		EDB16E87257D76FF00AD54EA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB16E86257D76FF00AD54EA /* CardView.swift */; };
 		EDB16E8B257D799C00AD54EA /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB16E8A257D799C00AD54EA /* CardViewModel.swift */; };
+		EDB16E8E257E636800AD54EA /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB16E8D257E636800AD54EA /* Advertiser.swift */; };
 		EDB9EB5A2577956300CF8C33 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB9EB592577956300CF8C33 /* User.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		ED9371902572E9A700077A08 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		EDB16E86257D76FF00AD54EA /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EDB16E8A257D799C00AD54EA /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		EDB16E8D257E636800AD54EA /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
 		EDB9EB592577956300CF8C33 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				EDB9EB592577956300CF8C33 /* User.swift */,
+				EDB16E8D257E636800AD54EA /* Advertiser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB16E8E257E636800AD54EA /* Advertiser.swift in Sources */,
 				ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */,
 				ED03DC99256F9D8F001734B6 /* HomeController.swift in Sources */,
 				ED03DC95256F9D8F001734B6 /* AppDelegate.swift in Sources */,
