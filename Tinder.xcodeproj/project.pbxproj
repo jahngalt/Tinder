@@ -15,6 +15,8 @@
 		ED03DCA1256F9D95001734B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED03DC9F256F9D95001734B6 /* LaunchScreen.storyboard */; };
 		ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */; };
 		ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */; };
+		ED54D71B258E9CD6008356F8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54D71A258E9CD5008356F8 /* CustomTextField.swift */; };
+		ED8F5607258BFE02000C02BB /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8F5606258BFE02000C02BB /* RegistrationController.swift */; };
 		ED9371912572E9A700077A08 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9371902572E9A700077A08 /* TopNavigationStackView.swift */; };
 		EDB16E87257D76FF00AD54EA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB16E86257D76FF00AD54EA /* CardView.swift */; };
 		EDB16E8B257D799C00AD54EA /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB16E8A257D799C00AD54EA /* CardViewModel.swift */; };
@@ -33,6 +35,8 @@
 		ED03DCA2256F9D95001734B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllsStackView.swift; sourceTree = "<group>"; };
+		ED54D71A258E9CD5008356F8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		ED8F5606258BFE02000C02BB /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		ED9371902572E9A700077A08 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		EDB16E86257D76FF00AD54EA /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EDB16E8A257D799C00AD54EA /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 				ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */,
 				ED9371902572E9A700077A08 /* TopNavigationStackView.swift */,
 				EDB16E86257D76FF00AD54EA /* CardView.swift */,
+				ED54D71A258E9CD5008356F8 /* CustomTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				ED03DC98256F9D8F001734B6 /* HomeController.swift */,
+				ED8F5606258BFE02000C02BB /* RegistrationController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -201,10 +207,12 @@
 				EDB16E8E257E636800AD54EA /* Advertiser.swift in Sources */,
 				ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */,
 				ED03DC99256F9D8F001734B6 /* HomeController.swift in Sources */,
+				ED8F5607258BFE02000C02BB /* RegistrationController.swift in Sources */,
 				ED03DC95256F9D8F001734B6 /* AppDelegate.swift in Sources */,
 				EDB9EB5A2577956300CF8C33 /* User.swift in Sources */,
 				ED9371912572E9A700077A08 /* TopNavigationStackView.swift in Sources */,
 				ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */,
+				ED54D71B258E9CD6008356F8 /* CustomTextField.swift in Sources */,
 				EDB16E87257D76FF00AD54EA /* CardView.swift in Sources */,
 				ED03DC97256F9D8F001734B6 /* SceneDelegate.swift in Sources */,
 				EDB16E8B257D799C00AD54EA /* CardViewModel.swift in Sources */,
