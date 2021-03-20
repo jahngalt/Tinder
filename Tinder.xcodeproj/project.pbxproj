@@ -16,6 +16,7 @@
 		ED03DCA1256F9D95001734B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED03DC9F256F9D95001734B6 /* LaunchScreen.storyboard */; };
 		ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */; };
 		ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */; };
+		ED1FCB512605B9670045901E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FCB502605B9670045901E /* SettingsViewController.swift */; };
 		ED54D71B258E9CD6008356F8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54D71A258E9CD5008356F8 /* CustomTextField.swift */; };
 		ED61AD6325B57B63005EF609 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61AD6225B57B63005EF609 /* RegistrationViewModel.swift */; };
 		ED8A374A25B5BDDC00BD84E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED8A374925B5BDDC00BD84E9 /* GoogleService-Info.plist */; };
@@ -41,6 +42,7 @@
 		ED03DCA2256F9D95001734B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllsStackView.swift; sourceTree = "<group>"; };
+		ED1FCB502605B9670045901E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		ED54D71A258E9CD5008356F8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		ED61AD6225B57B63005EF609 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		ED8A374925B5BDDC00BD84E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				ED8F5606258BFE02000C02BB /* RegistrationController.swift */,
 				ED99218625B96B7C001A6097 /* Bindable.swift */,
 				ED61AD6225B57B63005EF609 /* RegistrationViewModel.swift */,
+				ED1FCB502605B9670045901E /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				EDB9EB5A2577956300CF8C33 /* User.swift in Sources */,
 				ED9371912572E9A700077A08 /* TopNavigationStackView.swift in Sources */,
 				ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */,
+				ED1FCB512605B9670045901E /* SettingsViewController.swift in Sources */,
 				ED99218725B96B7C001A6097 /* Bindable.swift in Sources */,
 				ED54D71B258E9CD6008356F8 /* CustomTextField.swift in Sources */,
 				ED61AD6325B57B63005EF609 /* RegistrationViewModel.swift in Sources */,
@@ -375,7 +379,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
