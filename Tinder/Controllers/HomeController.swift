@@ -46,7 +46,7 @@ class HomeController: UIViewController {
     
     //show settings controller page
     @objc fileprivate func handleSettings() {
-        let settingsController = SettingsViewController()
+        let settingsController = SettingsController()
         let navController = UINavigationController(rootViewController: settingsController)
         navController.modalPresentationStyle = .fullScreen
         present(navController, animated: true)
