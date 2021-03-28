@@ -17,6 +17,7 @@
 		ED03DCAC2570DE0E001734B6 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */; };
 		ED03DCB125713D0A001734B6 /* HomeControllsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */; };
 		ED1FCB512605B9670045901E /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FCB502605B9670045901E /* SettingsController.swift */; };
+		ED1FCB552605F8440045901E /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FCB542605F8440045901E /* SettingsCell.swift */; };
 		ED54D71B258E9CD6008356F8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54D71A258E9CD5008356F8 /* CustomTextField.swift */; };
 		ED61AD6325B57B63005EF609 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61AD6225B57B63005EF609 /* RegistrationViewModel.swift */; };
 		ED8A374A25B5BDDC00BD84E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED8A374925B5BDDC00BD84E9 /* GoogleService-Info.plist */; };
@@ -43,6 +44,7 @@
 		ED03DCAB2570DE0E001734B6 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		ED03DCB025713D0A001734B6 /* HomeControllsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllsStackView.swift; sourceTree = "<group>"; };
 		ED1FCB502605B9670045901E /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		ED1FCB542605F8440045901E /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		ED54D71A258E9CD5008356F8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		ED61AD6225B57B63005EF609 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		ED8A374925B5BDDC00BD84E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				ED9371902572E9A700077A08 /* TopNavigationStackView.swift */,
 				EDB16E86257D76FF00AD54EA /* CardView.swift */,
 				ED54D71A258E9CD5008356F8 /* CustomTextField.swift */,
+				ED1FCB542605F8440045901E /* SettingsCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				ED61AD6325B57B63005EF609 /* RegistrationViewModel.swift in Sources */,
 				EDB16E87257D76FF00AD54EA /* CardView.swift in Sources */,
 				ED03DC97256F9D8F001734B6 /* SceneDelegate.swift in Sources */,
+				ED1FCB552605F8440045901E /* SettingsCell.swift in Sources */,
 				EDB16E8B257D799C00AD54EA /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
